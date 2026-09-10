@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torneios - Mobile Legends</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mobile Legends: Bang Bang</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="sobre.html">Sobre o Jogo</a></li>
+      <li><a href="herois.html">Heróis</a></li>
+      <li><a href="galeria.html">Galeria</a></li>
+      <li><a href="gameplay.html">Gameplay</a></li>
+      <li><a href="trilha-sonora.html">Trilha Sonora</a></li>
+      <li><a href="noticias.html">Notícias</a></li>
+      <li><strong>Torneios</strong></li>
+      <li><a href="cadastro.html">Cadastro</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Torneio Comunitário MLBB</h2>
+      <p>Acompanhe o andamento do nosso torneio comunitário de Mobile Legends.</p>
+
+      <article>
+        <h3>Inscrições Abertas</h3>
+        <p>Vagas preenchidas: 32 de 50 times.</p>
+        <p>
+          <label for="vagas">Progresso das inscrições:</label><br>
+          <progress id="vagas" value="32" max="50"></progress>
+        </p>
+      </article>
+
+      <article>
+        <h3>Fase Classificatória</h3>
+        <p>Andamento das partidas da fase de grupos.</p>
+        <p>
+          <label for="fase">Partidas concluídas:</label><br>
+          <progress id="fase" value="18" max="24"></progress>
+        </p>
+      </article>
+
+      <article>
+        <h3>Nível de Dificuldade do Torneio</h3>
+        <p>Avaliação da competitividade deste torneio, segundo os organizadores.</p>
+        <p>
+          <label for="dificuldade">Dificuldade:</label><br>
+          <meter id="dificuldade" min="0" max="10" value="8" low="3" high="7" optimum="10"></meter>
+          (8 de 10 — alta competitividade)
+        </p>
+      </article>
+
+      <article>
+        <h3>Premiação</h3>
+        <p>Meta de arrecadação para o prêmio em dinheiro do campeão.</p>
+        <p>
+          <label for="premio">Arrecadação:</label><br>
+          <meter id="premio" min="0" max="1000" value="650"></meter>
+          (R$ 650 de R$ 1000)
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Site criado por Pietro Ferreira &mdash; Projeto acadêmico sobre HTML semântico.</p>
+  </footer>
+
+</body>
+</html>
