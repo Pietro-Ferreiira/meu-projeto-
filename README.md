@@ -1,7 +1,7 @@
 # meu-projeto-
 # Mobile Legends Fan Site
 
-Projeto escolar de fã-site sobre o jogo Mobile Legends: Bang Bang, desenvolvido em HTML5 puro, utilizando tags semânticas, formulários avançados e elementos multimídia.
+Projeto Acadêmico de fã-site sobre o jogo Mobile Legends: Bang Bang, desenvolvido em HTML5 puro, utilizando tags semânticas, formulários avançados e elementos multimídia.
 
 ## Estrutura do projeto
 
