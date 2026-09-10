@@ -12,7 +12,7 @@ Projeto Acadêmico de fã-site sobre o jogo Mobile Legends: Bang Bang, desenvolv
 
 ## Páginas
 
-Início, Sobre o Jogo, Heróis, skins, Gameplay, Trilha Sonora, estratégias, Torneios, Cadastro, FAQ, Contato.
+Início, Sobre o Jogo, Heróis, Skins, Gameplay, Trilha Sonora, Estratégias, Torneios, Cadastro, FAQ, Contato.
 
 ## Autor
 
