@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Mobile Legends</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mobile Legends: Bang Bang</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="sobre.html">Sobre o Jogo</a></li>
+      <li><a href="herois.html">Heróis</a></li>
+      <li><a href="galeria.html">Galeria</a></li>
+      <li><a href="gameplay.html">Gameplay</a></li>
+      <li><a href="trilha-sonora.html">Trilha Sonora</a></li>
+      <li><a href="noticias.html">Notícias</a></li>
+      <li><a href="torneios.html">Torneios</a></li>
+      <li><strong>Cadastro</strong></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Cadastro para Torneio Comunitário</h2>
+      <p>Preencha o formulário abaixo para se inscrever no próximo torneio de Mobile Legends.</p>
+
+      <form>
+        <p>
+          <label for="nome">Nome completo:</label><br>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </p>
+
+        <p>
+          <label for="nick">Nick no jogo:</label><br>
+          <input type="text" id="nick" name="nick" placeholder="Seu nickname" required>
+        </p>
+
+        <p>
+          <label for="nascimento">Data de nascimento:</label><br>
+          <input type="date" id="nascimento" name="nascimento" required>
+        </p>
+
+        <p>
+          <label for="heroi">Herói principal:</label><br>
+          <input type="text" id="heroi" name="heroi" list="lista-herois" placeholder="Digite ou escolha um herói">
+          <datalist id="lista-herois">
+            <option value="Fanny">
+            <option value="Layla">
+            <option value="Tigreal">
+            <option value="Gusion">
+            <option value="Novaria">
+            <option value="Chip">
+          </datalist>
+        </p>
+
+        <p>
+          <label for="nivel">Nível de habilidade (1 a 10):</label><br>
+          <input type="range" id="nivel" name="nivel" min="1" max="10" value="5">
+        </p>
+
+        <p>
+          <label for="cor">Cor favorita do time:</label><br>
+          <input type="color" id="cor" name="cor" value="#0033cc">
+        </p>
+
+        <p>
+          <label for="print">Print do seu perfil no jogo:</label><br>
+          <input type="file" id="print" name="print" accept="image/*">
+        </p>
+
+        <p>
+          <button type="submit">Enviar Inscrição</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Site criado por Pietro Ferreira &mdash; Projeto acadêmico sobre HTML semântico.</p>
+  </footer>
+
+</body>
+</html>
